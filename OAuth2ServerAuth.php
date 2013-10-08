@@ -9,7 +9,7 @@ class OAuth2ServerAuth extends OAuth2ServerComponent {
 
     public $grantTypesEnabled = array('AuthCode', 'RefreshToken', 'Implicit', 'Password');
     public $identityClass = null;
-    public $clientModel = 'Oauth2ServerModelClient', $sessionModel = 'Oauth2ServerModelSession', $scopeModel = 'Oauth2ServerModelScope';
+    public $clientModel = 'OAuth2ServerModelClient', $sessionModel = 'OAuth2ServerModelSession', $scopeModel = 'OAuth2ServerModelScope';
     //your application url where signed in user will accept or reject oauth2 application authorize
     public $authorizeEndpoint;
     //your application login url
@@ -93,7 +93,7 @@ class OAuth2ServerAuth extends OAuth2ServerComponent {
 
     }
 
-    protected function authorize () {
+    public function authorize () {
         $params = $this->getSessionParams();
         $this->checkAuth();
         // If the user approves the client then generate an authoriztion code
