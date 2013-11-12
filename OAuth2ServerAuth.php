@@ -68,7 +68,7 @@ class OAuth2ServerAuth extends OAuth2ServerComponent {
         }
     }
 
-    protected function getSessionParams() {
+    public function getSessionParams() {
         $params = \Yii::app()->session->get('OAuth2ServerParams', null);
         if ($params === null) {
             throw new \Exception('Missing auth parameters');
@@ -110,11 +110,11 @@ class OAuth2ServerAuth extends OAuth2ServerComponent {
 
     }
 
-    public function authorize () {
+    public function authorize() {
         $params = $this->getSessionParams();
         $this->checkAuth();
         // If the user approves the client then generate an authoriztion code
-        if ($this->isAutoApprove() OR isset($_POST['request']['accept'])) {
+        if ($this->isAutoApprove() OR isset($_POST['accept'])) {
             $authCode = $this->server->newAuthoriseRequest('user', \Yii::app()->user->getId(), $params);
             $urlParams = array(
                 'code' => $authCode,
@@ -135,7 +135,7 @@ class OAuth2ServerAuth extends OAuth2ServerComponent {
             \Yii::app()->getRequest()->redirect(\OAuth2\Util\RedirectUri::make($params['redirect_uri'], $urlParams));
         }
         // The user denied the request so send them back to the client with an error
-        elseif (isset($_POST['request']['reject'])) {
+        elseif (isset($_POST['reject'])) {
             $server = $this->server;
             \Yii::app()->getRequest()->redirect(\OAuth2\Util\RedirectUri::make($params['redirect_uri'], array(
                 'error_msg' => 'access_denied',

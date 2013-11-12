@@ -19,7 +19,7 @@ class OAuth2ServerModelSession extends CActiveRecord implements \OAuth2\Storage\
     public function createSession($clientId, $redirectUri, $type = 'user', $typeId = null, $authCode = null, $accessToken = null, $refreshToken = null, $accessTokenExpire = null, $stage = 'requested')
     {
         $now = time();
-        $session = static::model();
+        $session = OAuth2ServerModelSession::model();
 
         $session->client_id = $clientId;
         $session->redirect_uri = $redirectUri;
@@ -33,6 +33,8 @@ class OAuth2ServerModelSession extends CActiveRecord implements \OAuth2\Storage\
         $session->first_requested = $now;
         $session->last_updated = $now;
 
+
+        $session->setIsNewRecord(true);
         $session->save();
         return $session->id;
     }
@@ -127,6 +129,7 @@ class OAuth2ServerModelSession extends CActiveRecord implements \OAuth2\Storage\
         $scope = OAuth2ServerModelSessionScope::model();
         $scope->session_id = $sessionId;
         $scope->scope_id = $scopeId;
+        $scope->setIsNewRecord(true);
         $scope->save();
     }
 

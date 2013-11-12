@@ -21,7 +21,13 @@ class OAuth2ServerModelClient extends CActiveRecord implements \OAuth2\Storage\C
         $clientDetails = false;
         $searchParams = array('id' => $clientId);
         if ($clientSecret !== null) $searchParams['secret'] = $clientSecret;
-        if ($client = $this->find($searchParams)) {
+        $searchString = array();
+        $searchBind = array();
+        foreach ($searchParams as $field=>$val) {
+            $searchString[] = $field.' = :'.$field;
+            $searchBind[':'.$field] = $val;
+        }
+        if ($client = $this->find(implode(' AND ', $searchString), $searchBind)) {
             $clientDetails = array(
                 'client_id' => $clientId,
                 'client secret' => $clientSecret,
