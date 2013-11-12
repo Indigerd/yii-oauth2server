@@ -4,7 +4,7 @@
  * @license     http://mit-license.org/
  */
 
-class Client extends CActiveRecord implements \OAuth2\Storage\ClientInterface {
+class OAuth2ServerModelClient extends CActiveRecord implements \OAuth2\Storage\ClientInterface {
 
     public static function model($className=__CLASS__)
     {

@@ -9,7 +9,10 @@ class OAuth2ServerAuth extends OAuth2ServerComponent {
 
     public $grantTypesEnabled = array('AuthCode', 'RefreshToken', 'Implicit', 'Password');
     public $identityClass = null;
-    public $clientModel = 'OAuth2ServerModelClient', $sessionModel = 'OAuth2ServerModelSession', $scopeModel = 'OAuth2ServerModelScope';
+    public
+        $clientModel = 'OAuth2ServerModelClient',
+        $sessionModel = 'OAuth2ServerModelSession',
+        $scopeModel = 'OAuth2ServerModelScope';
     //your application url where signed in user will accept or reject oauth2 application authorize
     public $authorizeEndpoint;
     //your application login url
@@ -65,6 +68,14 @@ class OAuth2ServerAuth extends OAuth2ServerComponent {
             throw new \Exception('Missing auth parameters');
         }
         return unserialize($params);
+    }
+
+    public function isAutoApprove(){
+        return
+            (!\Yii::app()->user->getIsGuest() AND
+                $params = $this->getSessionParams() AND
+                isset($params['client_details']['auto_approve']) AND
+                $params['client_details']['auto_approve']);
     }
 
     protected function checkAuth() {
