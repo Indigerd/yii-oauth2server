@@ -4,6 +4,12 @@
  * @license     http://mit-license.org/
  */
 
+require_once 'OAuth2ServerComponent.php';
+require_once 'OAuth2ServerModelClient.php';
+require_once 'OAuth2ServerModelScope.php';
+require_once 'OAuth2ServerModelSession.php';
+require_once 'OAuth2ServerModelSessionScope.php';
+require_once 'OAuth2ServerResponse.php';
 
 class OAuth2ServerAuth extends OAuth2ServerComponent {
 
