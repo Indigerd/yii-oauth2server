@@ -110,6 +110,11 @@ for example views/oauth2/authorize.php
         ->send();
 ```
 
+##REQUIREMENTS
+
+PHP >= 5.3.0
+
+Tested on Yii Framework 1.1.14
 
 ##License
 
