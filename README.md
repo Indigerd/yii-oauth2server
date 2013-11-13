@@ -112,7 +112,7 @@ for example views/oauth2/authorize.php
 
 ##REQUIREMENTS
 
-PHP >= 5.3.0
+PHP >= 5.3.0 + openssl php extension
 
 Tested on Yii Framework 1.1.14
 
