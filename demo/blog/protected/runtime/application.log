@@ -1,0 +1,413 @@
+2013/11/12 20:24:31 [error] [php] include(OAuth2ServerAuth.php): failed to open stream: No such file or directory (N:\home\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 N:\home\yii\framework\YiiBase.php(196): import()
+#1 N:\home\yii\framework\base\CModule.php(386): createComponent()
+#2 N:\home\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CWebApplication->__get()
+#4 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#5 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 N:\home\yii\framework\web\filters\CFilterChain.php(133): Oauth2Controller->runAction()
+#7 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 N:\home\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 N:\home\yii\framework\web\filters\CInlineFilter.php(58): Oauth2Controller->filterAccessControl()
+#10 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 N:\home\yii\framework\web\CController.php(265): Oauth2Controller->runActionWithFilters()
+#13 N:\home\yii\framework\web\CWebApplication.php(282): Oauth2Controller->run()
+#14 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 N:\home\yii\www\index.php(11): CWebApplication->run()
+REQUEST_URI=/index.php/oauth2
+2013/11/12 20:25:25 [error] [php] include(OAuth2ServerComponent.php): failed to open stream: No such file or directory (N:\home\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(8): spl_autoload_call()
+#1 N:\home\yii\framework\YiiBase.php(320): require()
+#2 N:\home\yii\framework\YiiBase.php(196): import()
+#3 N:\home\yii\framework\base\CModule.php(386): createComponent()
+#4 N:\home\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CWebApplication->__get()
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): Oauth2Controller->runAction()
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): Oauth2Controller->filterAccessControl()
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): Oauth2Controller->runActionWithFilters()
+#15 N:\home\yii\framework\web\CWebApplication.php(282): Oauth2Controller->run()
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CWebApplication->run()
+REQUEST_URI=/index.php/oauth2
+2013/11/12 20:25:29 [error] [php] include(OAuth2ServerComponent.php): failed to open stream: No such file or directory (N:\home\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(8): spl_autoload_call()
+#1 N:\home\yii\framework\YiiBase.php(320): require()
+#2 N:\home\yii\framework\YiiBase.php(196): import()
+#3 N:\home\yii\framework\base\CModule.php(386): createComponent()
+#4 N:\home\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CWebApplication->__get()
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): Oauth2Controller->runAction()
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): Oauth2Controller->filterAccessControl()
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): Oauth2Controller->runActionWithFilters()
+#15 N:\home\yii\framework\web\CWebApplication.php(282): Oauth2Controller->run()
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CWebApplication->run()
+REQUEST_URI=/index.php/oauth2
+2013/11/12 20:26:04 [error] [php] include(OAuth2ServerModelClient.php): failed to open stream: No such file or directory (N:\home\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(26): spl_autoload_call()
+#1 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#2 N:\home\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CWebApplication->__get()
+#4 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#5 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 N:\home\yii\framework\web\filters\CFilterChain.php(133): Oauth2Controller->runAction()
+#7 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 N:\home\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 N:\home\yii\framework\web\filters\CInlineFilter.php(58): Oauth2Controller->filterAccessControl()
+#10 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 N:\home\yii\framework\web\CController.php(265): Oauth2Controller->runActionWithFilters()
+#13 N:\home\yii\framework\web\CWebApplication.php(282): Oauth2Controller->run()
+#14 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 N:\home\yii\www\index.php(11): CWebApplication->run()
+REQUEST_URI=/index.php/oauth2
+2013/11/12 20:26:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:26:40 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:21 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:22 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:23 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:24 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:25 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:25 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:26 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:38 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:27:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_clients' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_clients`.
+2013/11/12 20:27:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_clients}}" for active record class "OAuth2ServerModelClient" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelClient))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:28:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.tbl_oauth2server_sessions' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_oauth2server_sessions`.
+2013/11/12 20:28:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{oauth2server_sessions}}" for active record class "OAuth2ServerModelSession" cannot be found in the database.' in N:\home\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 N:\home\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(OAuth2ServerModelSession))
+#1 N:\home\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(30): CActiveRecord->__construct()
+#3 N:\home\yii\framework\base\CModule.php(387): OAuth2ServerAuth->init()
+#4 N:\home\yii\framework\base\CModule.php(103): CModule->getComponent('oauth2Auth')
+#5 N:\home\yii\www\protected\controllers\Oauth2Controller.php(35): CModule->__get('oauth2Auth')
+#6 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#7 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 N:\home\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 N:\home\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('oauth2')
+#17 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 N:\home\yii\www\index.php(11): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/oauth2
+---
+2013/11/12 20:29:05 [error] [php] include(OAuth2ServerResponse.php): failed to open stream: No such file or directory (N:\home\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 N:\home\yii\www\protected\extensions\oauth2server\OAuth2ServerAuth.php(106): spl_autoload_call()
+#1 N:\home\yii\www\protected\controllers\Oauth2Controller.php(36): OAuth2ServerAuth->initOAuth2Request()
+#2 N:\home\yii\framework\web\actions\CInlineAction.php(49): Oauth2Controller->actionIndex()
+#3 N:\home\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 N:\home\yii\framework\web\filters\CFilterChain.php(133): Oauth2Controller->runAction()
+#5 N:\home\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 N:\home\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 N:\home\yii\framework\web\filters\CInlineFilter.php(58): Oauth2Controller->filterAccessControl()
+#8 N:\home\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 N:\home\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 N:\home\yii\framework\web\CController.php(265): Oauth2Controller->runActionWithFilters()
+#11 N:\home\yii\framework\web\CWebApplication.php(282): Oauth2Controller->run()
+#12 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 N:\home\yii\www\index.php(11): CWebApplication->run()
+REQUEST_URI=/index.php/oauth2
+2013/11/12 20:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "oauth2".' in N:\home\yii\framework\web\CController.php:483
+Stack trace:
+#0 N:\home\yii\framework\web\CController.php(270): CController->missingAction('oauth2')
+#1 N:\home\yii\framework\web\CWebApplication.php(282): CController->run('oauth2')
+#2 N:\home\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/oauth2/aut...')
+#3 N:\home\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 N:\home\yii\www\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/oauth2/authorize
+HTTP_REFERER=http://yii/index.php/site/login
+---
